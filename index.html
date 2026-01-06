@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Audit Log System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>Audit Log System</h1>
+
+  <div class="actions">
+    <button onclick="logAction('User logged in')">Login</button>
+    <button onclick="logAction('Profile updated')">Update Profile</button>
+    <button onclick="logAction('User logged out')">Logout</button>
+    <button onclick="clearLogs()">Clear Logs</button>
+  </div>
+
+  <ul id="logs"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
